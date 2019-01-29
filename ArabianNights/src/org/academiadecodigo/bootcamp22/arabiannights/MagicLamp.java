@@ -44,6 +44,11 @@ public class MagicLamp {
     }
 
     public void compareTo(MagicLamp lamp) {
+
+
+
+        //return (this.maxNumberOfGenies ==  && && &&);
+        /*
         System.out.println("First lamp:");
         System.out.println("Capacity: " + this.maxNumberOfGenies);
         System.out.println("Genies Remaining: " + this.remainingGenies);
@@ -53,13 +58,17 @@ public class MagicLamp {
         System.out.println("Capacity: " + lamp.maxNumberOfGenies);
         System.out.println("Genies Remaining: " + lamp.remainingGenies);
         System.out.println("Times recycled: " + lamp.numberOfRecicles);
+        */
 
     }
 
     public void reset(RecyclableDemon demon) {
-        System.out.println("lamp recicled omgggggg");
-        this.remainingGenies = this.maxNumberOfGenies;
-        numberOfRecicles++;
+
+            System.out.println("lamp recicled omgggggg");
+            this.remainingGenies = this.maxNumberOfGenies;
+            numberOfRecicles++;
+
+
 
     }
 

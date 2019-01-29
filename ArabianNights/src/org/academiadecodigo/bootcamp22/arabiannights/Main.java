@@ -8,7 +8,7 @@ public class Main {
 
         Genie gudGenie = lamp.rub();
         gudGenie.wish();
-        gudGenie.wish();
+        gudGenie. kill();
         gudGenie.wish();
         gudGenie.wish();
         gudGenie.wish();

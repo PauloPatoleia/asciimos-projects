@@ -15,6 +15,8 @@ public class Genie {
         wishesGranted++;
         System.out.println(wishesGranted);}
 
+
+
     public int getMaxNumberOfWishes() {
         return maxNumberOfWishes;
     }

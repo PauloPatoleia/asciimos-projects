@@ -16,6 +16,8 @@ public class GrumpyGenie extends Genie {
 
         }
 
-
+    public void kill() {
+        System.out.println("U ARE DEAD");
+    }
     }
 
