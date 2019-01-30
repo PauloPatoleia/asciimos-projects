@@ -6,7 +6,7 @@ import org.academiadecodigo.carcrash.field.Field;
 
 public class Game {
 
-    public static final int MANUFACTURED_CARS = 20;
+    public static final int MANUFACTURED_CARS = 10;
 
     /** Container of Cars */
     private Car[] cars;
@@ -62,7 +62,6 @@ public class Game {
         for (int i = 0; i < cars.length; i++) {
 
             cars[i].move();
-                    cars[i].move();
             verifyCollision(i);
         }
 
